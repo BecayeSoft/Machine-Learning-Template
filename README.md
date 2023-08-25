@@ -4,10 +4,33 @@
 
 ```
 project/
+    data/
+        raw/                            # Raw data 
+        processed/                      # Data after preprocessing
+        engineered/                     # Data after feature engineering 
+        final/                          # Data split into train, validation, and test sets 
+    notebooks/                          # Jupyter notebooks directory for experimentation
+    src/
+        preprocessing/                  # Data processing module
+        feature_engineering/            # Feature engineering module
+        training/                       # Training module
+        evaluation/                     # Evaluation module
+        visualization/                  # Visualization module (utility functions for plotting)
+        utils/                          # Utility module (useful functions)
+        main.py                         # Main script for running the whole pipeline
+    tests/                              # Unit tests directory
+    config/                             # Configuration files directory
+    reports/                            # Reports on different experiments
+    conda-dev.yaml                      # Conda dependencies
+    README.md                           # Project documentation
+```
+
+```
+project/
 ├── data/
 │   ├── raw/                            # Raw data 
 │   ├── processed/                      # Data after preprocessing
-│   └── engineered/                     # Data after feature engineering 
+│   ├── engineered/                     # Data after feature engineering 
 │   └── final/                          # Data split into train, validation, and test sets 
 │
 ├── notebooks/                          # Jupyter notebooks directory for experimentation
@@ -31,6 +54,7 @@ project/
 │
 └── README.md              # Project documentation
 ```
+
 
 ## Setting up a Virtual Environment
 
