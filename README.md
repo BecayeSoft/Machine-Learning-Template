@@ -2,6 +2,7 @@
 
 ## Template Structure
 
+```
 project/
 ├── data/
 │   ├── raw/                            # Raw data 
@@ -29,7 +30,7 @@ project/
 ├── conda-dev.yaml                      # Conda dependencies
 │
 └── README.md              # Project documentation
-
+```
 
 ## Setting up a Virtual Environment
 
