@@ -1,0 +1,13 @@
+# Files to ignore
+
+# Do not commit your data to git
+data/raw/*
+data/processed/*
+data/engineered/*
+data/final/*
+
+# MLFLow runs
+notebooks/mlruns
+
+# Python cache
+__pycache__/

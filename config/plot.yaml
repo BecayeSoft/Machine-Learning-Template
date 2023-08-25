@@ -1,0 +1,4 @@
+
+eda_plots: "reports/eda/plots/"
+model_performance_plots: "reports/model_performance/plots/"
+interpretability_plots: "reports/interpretability/plots/"
