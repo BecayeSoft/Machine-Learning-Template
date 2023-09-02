@@ -58,7 +58,8 @@ conda env update --file conda-dev.yaml
 
 The order of the pipeline is as follows:
 
-- 1. Preprocessing
-- 2. Feature Engineering
-- 3. Training
-- 4. Evaluation
+1. Preprocessing: Clean the data
+2. Feature Engineering: Add new features
+3. Data Splitting: Split the data into train, validation, and test sets
+3. Training: Train the model and tune it on the validation set
+4. Evaluation: Evaluate the model on the test set

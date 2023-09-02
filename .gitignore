@@ -1,10 +1,10 @@
 # Files to ignore
 
 # Do not commit your data to git
-data/raw/*
-data/processed/*
-data/engineered/*
-data/final/*
+# data/raw/*
+# data/processed/*
+# data/engineered/*
+# data/final/*
 
 # MLFLow runs
 notebooks/mlruns
