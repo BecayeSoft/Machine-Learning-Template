@@ -36,7 +36,7 @@ project/
 
 ## Setting up a Virtual Environment
 
-Use the conda-dev.yaml file to create a conda environment with all the dependencies needed to run the project.
+The conda-dev.yaml file contains useful libraries for data science and machine learning. Use it to create a conda environment with all the dependencies needed to run the project.
 
 ```bash
 conda env create -f conda-dev.yaml
