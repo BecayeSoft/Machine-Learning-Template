@@ -45,7 +45,7 @@ conda env create -f conda-dev.yaml
 Activate the environment
 
 ```bash
-conda dev-env
+conda activate dev-env
 ```
 
 To add a new package to the environment, add it to the `conda-dev.yaml` file, then update the environment:
